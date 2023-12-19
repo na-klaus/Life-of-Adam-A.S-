@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Life of Adam (A.S)</title>
+    <!-- Add this line in the head section of your HTML file -->
+<link rel="stylesheet" href="styles.css">
+
+    <script src="script.js" defer></script>
+    
+    
+    <!-- Header Section -->
+    <header>
+        <h1>Life of Adam (A.S)</h1>
+        <p>THE FATHER OF HUMANITY</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#biography">Biography</a>
+        <a href="#early-life">Early Life</a>
+        <a href="#teachings">Teachings</a>
+        <a href="#legacy">Legacy</a>
+        <a href="#interactive">Interactive</a>
+        <a href="#resources">Resources</a>
+        <a href="#children">Children</a>
+
+    </nav>
+
+     <!-- Biography Section -->
+     <section id="biography">
+        <h2>Biography</h2>
+
+        <p>
+            <strong>Creation of Adam:</strong> Surah Al-Baqarah (2:30-39)<br>
+            Allah narrates the creation of Adam and how He appointed him as His vicegerent on earth.
+        </p>
+
+        <p>
+            <strong>Adam's Dwelling in Paradise:</strong> Surah Al-Baqarah (2:35-36)<br>
+            Adam and his wife were placed in Paradise, and they were allowed to enjoy everything except one tree.
+        </p>
+
+        <p>
+            <strong>The Temptation and Fall:</strong> Surah Al-Baqarah (2:37)<br>
+            Satan deceived Adam and his wife to eat from the forbidden tree, leading to their expulsion from Paradise.
+        </p>
+
+        <p>
+            <strong>Repentance and Forgiveness:</strong> Surah Al-Baqarah (2:37-38)<br>
+            Adam and his wife repented, and Allah forgave them. Adam was then sent to Earth as a prophet.
+        </p>
+
+        <p>
+            <strong>Adam as a Prophet:</strong> Surah Al-A'raf (7:11-25)<br>
+            Adam is mentioned as a prophet, and his story is retold, emphasizing the guidance he received from Allah.
+        </p>
+
+        <p>
+            <strong>The Covenant with Adam's Progeny:</strong> Surah Al-A'raf (7:172-173)<br>
+            Allah took a covenant from the descendants of Adam before their creation, affirming His oneness.
+        </p>
+    </section>
+    
+    <!-- Early Life Section -->
+    <section id="early-life">
+        <h2>Early Life</h2>
+        <p>
+            <strong>Adam's Creation and Residence in Paradise:</strong> Surah Al-Baqarah (2:30-35)<br>
+            Allah narrates the creation of Adam, his residence in Paradise, and the command not to approach a specific tree.
+        </p>
+
+        <p>
+            <strong>The Temptation and Fall:</strong> Surah Al-Baqarah (2:36-37)<br>
+            Satan deceived Adam and his wife, leading to their expulsion from Paradise after eating from the forbidden tree.
+        </p>
+
+        <p>
+            <strong>Repentance and Forgiveness:</strong> Surah Al-Baqarah (2:37-38)<br>
+            Adam and his wife repented, and Allah forgave them. Adam was then sent to Earth as a prophet.
+        </p>
+        <!-- Add images of Adam's early life here -->
+        
+    </section>
+
+    <!-- Teachings Section -->
+    <section id="teachings">
+        <h2>Teachings</h2>
+        <p>
+            <strong>Guidance as a Prophet:</strong> Surah Al-A'raf (7:11-25)<br>
+            Adam is mentioned as a prophet, and his story is retold, emphasizing the guidance he received from Allah.
+        </p>
+
+        <p>
+            <strong>Commandments to Children:</strong> Surah Al-A'raf (7:26-27)<br>
+            Adam and his wife were given commandments by Allah, and these were passed on to their children.
+        </p>
+
+        <p>
+            <strong>The Covenant with Adam's Progeny:</strong> Surah Al-A'raf (7:172-173)<br>
+            Allah took a covenant from the descendants of Adam before their creation, affirming His oneness.
+        </p>
+        <!-- Add images related to Adam's teachings here -->
+        
+    </section>
+
+    <!-- Legacy Section -->
+    <section id="legacy">
+        <h2>Legacy</h2>
+        <p>
+            <strong>The Covenant with Adam's Progeny:</strong> Surah Al-A'raf (7:172-173)<br>
+            Allah took a covenant from the descendants of Adam before their creation, affirming His oneness.
+        </p>
+
+        <p>
+            <strong>Guidance for Humanity:</strong> Surah Al-Baqarah (2:213)<br>
+            Adam, along with other prophets, was given guidance to lead humanity on the right path.
+        </p>
+
+        <p>
+            <strong>Lessons from Adam's Story:</strong> Surah Sad (38:71-88)<br>
+            The Quran recounts the story of Adam as a lesson and guidance for the believers.
+        </p>
+      
+        
+    </section>
+
+    
+<section id="interactive">
+    <h2>Interactive Elements</h2>
+
+    <div id="quiz-container">
+        <h3>Quiz: Test Your Knowledge about Adam (A.S)</h3>
+
+        <p id="question">Question 1: What is the significance of Adam's creation?</p>
+
+        <label>
+            <input type="radio" name="options" value="a"> Option A: Vicegerency on Earth
+        </label>
+        <label>
+            <input type="radio" name="options" value="b"> Option B: Ruling in Paradise
+        </label>
+        <label>
+            <input type="radio" name="options" value="c"> Option C: Flying with Angels
+        </label>
+        <label>
+            <input type="radio" name="options" value="d"> Option D: Living in Heaven
+        </label>
+
+        <button onclick="checkAnswer()">Submit Answer</button>
+
+        <p id="result"></p>
+    </div>
+
+    <script>
+        function checkAnswer() {
+            
+            var selectedOption = document.querySelector('input[name="options"]:checked');
+            var resultDisplay = document.getElementById('result');
+
+            if (selectedOption) {
+                var userAnswer = selectedOption.value;
+
+               
+                if (userAnswer === 'a') {
+                    resultDisplay.textContent = 'Correct!';
+                } else {
+                    resultDisplay.textContent = 'Incorrect. The correct answer is A: Vicegerency on Earth.';
+                }
+            } else {
+                resultDisplay.textContent = 'Please select an answer.';
+            }
+        }
+    </script>
+</section>
+
+    <!-- Resources Section -->
+<section id="resources">
+    <h2>Key Points about the Life of Prophet Adam (A.S)</h2>
+
+    <ul>
+        <li>
+            <strong>First Man on Earth:</strong> Prophet Adam (A.S.) was the first man descended by Allah to earth, along with his wife Hawwa (Eve).
+        </li>
+        <hr>
+        <li>
+            <strong>Prophethood:</strong> Adam belongs to the 25 prophets mentioned in the Quran.
+        </li> <hr>
+        <li>
+            <strong>Life Span:</strong> According to different narrations, Adam lived for about 960 years after creation. (GAVE 40 years to  Prophet Dawood's.(A.S) )
+        </li> <hr>
+        <li> 
+            <strong>Creation and Vicegerency:</strong> Allah created Adam as His vicegerent on earth, serving to prosper the earth.
+        </li><hr>
+        <li>
+            <strong>Angels' Concern:</strong> Angels expressed concerns about human mischief, but Allah knew the greater benefits.
+        </li> <hr>
+        <li>
+            <strong>Virtue over Angels:</strong> Allah taught Adam the names of everything, showing his superiority over angels.
+        </li> <hr>
+        <li>
+            <strong>Height:</strong> Adam was created tall, as mentioned in Hadith.
+        </li> <hr>
+        <li>
+            <strong>Angel's Prostration:</strong> Angels prostrated to Adam, except for Iblis (Satan), who disobeyed Allah's command.
+        </li> <hr>
+        <li>
+            <strong>Eve's Creation:</strong> Eve was created from Adam's rib, and they were placed in paradise with a warning not to approach a certain tree.
+        </li> <hr>
+        <li>
+            <strong>Satan's Deceit:</strong> Satan deceived Adam and Eve, leading to their disobedience and expulsion from paradise.
+        </li> <hr>
+        <li>
+            <strong>Repentance:</strong> Adam and Eve repented, and Allah accepted their repentance, sending them to live on earth.
+        </li><hr>
+        <li>
+            <strong>Children and Progeny:</strong> Adam and Eve were blessed with children, and Adam became the first prophet on earth.
+        </li> <hr>
+        <li>
+            <strong>Cain and Abel:</strong> Conflict arose between their children, resulting in the first death when Cain killed Abel.
+        </li> <hr>
+        <li>
+            <strong>Teachings:</strong> Adam taught his children about Allah, Satan, and the consequences of disobedience.
+        </li> <hr>
+        <li>
+            <strong>Successor:</strong> Adam appointed his son Seth as his successor and continued to teach the worship of Allah.
+        </li> <hr>
+        <li>
+            <strong>Death:</strong> Adam passed away after approximately a thousand years, leaving behind the legacy of monotheism.
+        </li> <hr>
+        <li>
+            <strong>Burial Place:</strong> Various narrations suggest different locations for the burial place of Adam, including Makkah and Jerusalem.
+        </li> <hr>
+    </ul>
+    <!-- Add content or images related to resources here -->
+</section>
+
+<!-- Children of Prophet Adam (A.S) Story Section -->
+<section id="children">
+    <h2>Story of Prophet Adam's (A.S) Children</h2>
+
+    <p>The pinnacle of earthly bliss was reached when Adam and Eve witnessed the birth of their first children, a set of twins. Adam was a devoted father and Eve a contented mother. The twins were Cain (Qabil) and his sister. Later, Eve gave birth to a second set of twins, Abel (Habil) and his sister.</p>
+    <hr>
+
+    <p>The family enjoyed the bounties and fruits of the earth provided by their Lord. The children grew up to be strong and healthy young adults. Cain tilled the land, while Abel raised cattle.</p>
+    <hr>
+
+    <p>The time arrived when the two young men desired life partners. This was part of Allah's plan for mankind, to multiply and form nations with different cultures and colors. Allah revealed to Adam that he should marry each son to the twin sister of the other. Adam instructed his children according to Allah's command, but Cain was displeased with the partner chosen for him, for Abel's twin-sister was not as beautiful as his own.</p>
+    <hr>
+
+    <p>It appears that since the beginning of time, physical beauty has been a factor in the attraction between men and women. This attraction caused Cain to envy his brother Abel. He rebelled against Allah's command by refusing to accept his father's advice.</p>
+    <hr>
+
+    <p>At first glance, Cain's rebellion might appear strange, but we should remember that, although man has a pure nature, the potential for dichotomy exists. In other words, he has both good and bad qualities. He can become greedy, covetous, possessive, selfish, and even destructive. Man is, therefore, capable of seeking self-satisfaction even if it leads to failure in this life and in the hereafter. The path to goodness lies in harnessing the enemy within him, his baser self, by controlling evil thoughts and deeds and practicing moderation in his desires and actions. His reward then will be the delights of this world and the hereafter. Thus Allah tests us through our divided nature.</p>
+    <hr>
+
+    <p>Adam was in a dilemma. He wanted peace and harmony in his family, so he invoked Allah for help. Allah commanded that each son offer a sacrifice, and he whose offering was accepted would have right on his side. Abel offered his best camel, while Cain offered his worst grain. His sacrifice was not accepted by Allah because of his disobedience to his father and the insincerity in his offering.</p>
+    <hr>
+
+    <p>This enraged Cain even further. Realizing that his hopes of marrying his own beautiful sister were fading, he threatened his brother: "I will kill you! I refuse to see you happy while I remain unhappy!"</p>
+    <hr>
+
+    <p>Abel, feeling sorry for his brother, replied: "It would be more proper for you, my brother, to search for the cause of your unhappiness and then walk in the way of peace. Allah accepts deeds only from those who serve and fear Him, not from those who reject His commands."</p>
+    <hr>
+</section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2023 Life of Adam Website. All rights reserved to Navish Ansari.</p>
+    </footer>
+
+  
+
+</body>
+
+</html>
